@@ -1,2 +1,6 @@
 pcController/udpPCConVenv/
 pcController/__pycache__/
+BotController/adkvenv/
+BotController/__pycache__/
+BotController/.env
+BotController/image.jpg

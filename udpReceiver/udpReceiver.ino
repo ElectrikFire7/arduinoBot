@@ -24,6 +24,17 @@ enum WifiMode {
   SWITCH_TO_STA,
   CHANGE_STA
 };
+
+enum MoveDir {
+  fwd,
+  bck,
+  lft,
+  rgt,
+  sta
+};
+
+MoveDir moveDir = sta;
+
 const int lf = 7;
 const int lb = 8;
 const int rf = 2;
@@ -65,5 +76,5 @@ void loop() {
     resetMotors();
   }
 
-  delay(100);
+  delay(200);
 }
